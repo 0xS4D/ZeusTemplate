@@ -1,6 +1,6 @@
 # ZeusTemplate
 
-A starter for React with using Vite, Tailwind, Eslint and React Router Dom v6.
+A starter for React using Vite, Tailwind, Eslint and React Router Dom v6.
 
 ![Screenshot](screenshot.png)
 
