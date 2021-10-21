@@ -1,0 +1,33 @@
+{
+  "name": "vite-react-tailwind-eslint-router",
+  "author": {
+    "name": "Eternum Zeta"
+  },
+  "description": "Starter using Vite, React, Tailwind, Eslint and Router.",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "history": "^5.0.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^6.0.0-beta.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.3.6",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.0"
+  }
+}
