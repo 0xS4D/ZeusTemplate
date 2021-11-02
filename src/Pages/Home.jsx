@@ -1,6 +1,6 @@
 import Socials from '@/Components/Socials'
 import RouterExample from '@/Components/RouterExample'
-import Logo from '../favicon.png'
+import Logo from '@/Assets/favicon.png'
 
 export default function Home () {
   return (
