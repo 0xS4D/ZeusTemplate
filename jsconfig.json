@@ -8,5 +8,6 @@
       "@/Layouts/*": ["./Layouts/*"],
       "@/Routes/*": ["./Routes/*"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }

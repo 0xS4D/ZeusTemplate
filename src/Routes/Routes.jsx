@@ -27,10 +27,12 @@ export const Routes = [
   {
     // -- Path without layout --
     path: 'layout',
-    children: [{
-      path: 'secret',
-      element: <Subroute />
-    }]
+    children: [
+      {
+        path: 'secret',
+        element: <Subroute />
+      }
+    ]
   },
   {
     path: '*',
