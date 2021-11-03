@@ -1,6 +1,6 @@
 import Socials from '@/Components/Socials'
 import RouterExample from '@/Components/RouterExample'
-import Logo from '@/Assets/favicon.png'
+import Logo from '@/Assets/Logo.jsx'
 
 export default function Home () {
   return (
@@ -9,11 +9,13 @@ export default function Home () {
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <main>
             <div className='flex flex-col items-center justify-center min-h-screen text-white layout gap-2'>
-              <img src={Logo} className='-mt-40' alt='Logo' draggable={false}/>
+              <Logo className='h-52 -mt-20 text-red-800 fill-current' />
               <h1 className='text-3xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-red-800'>
-                Starter using Vite, React, Tailwind, Eslint and Router.
-                <p className='text-base'>By EternumZeta</p>
+                Starter using Vite, Solid, Tailwind, Eslint and Router.
               </h1>
+              <p className='font-bold text-base text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-red-800'>
+                By EternumZeta
+              </p>
               <br />
               <RouterExample current={'Home'} />
               <br />
