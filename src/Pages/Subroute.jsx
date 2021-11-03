@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import RouterExample from '@/Components/RouterExample'
 
 export default function Subroute () {
   return (
@@ -10,14 +10,7 @@ export default function Subroute () {
               Hi! Im Secret and I dont like layouts
             </h1>
             <p className='animate-bounce text-3xl'>🤫</p>
-            <Link to='/'>
-              <button
-                type='button'
-                className='relative inline-flex items-center px-4 py-2 rounded-md bg-white text-sm font-medium text-gray-700 border-b-4 border-red-600'
-              >
-                Back home
-              </button>
-            </Link>
+            <RouterExample text={'Home'} to={'/'} />
           </div>
         </main>
       </div>

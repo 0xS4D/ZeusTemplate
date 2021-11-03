@@ -17,7 +17,7 @@ export default function Home () {
                 By EternumZeta
               </p>
               <br />
-              <RouterExample current={'Home'} />
+              <RouterExample text={'Layout'} to={'/layout'} />
               <br />
               <footer className='absolute text-gray-300 bottom-10'>
                 <Socials />

@@ -14,7 +14,7 @@ export default function Layout () {
               </h1>
               <Outlet />
               <br />
-              <RouterExample current={'Layout'} />
+              <RouterExample text={'Home'} to={'/'} />
               <Link to='/layout/secret'>
                 <button
                   type='button'
