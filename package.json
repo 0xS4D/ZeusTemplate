@@ -4,7 +4,7 @@
     "name": "Eternum Zeta"
   },
   "description": "Starter using Vite, React, Tailwind, Eslint and Router.",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
