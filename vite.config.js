@@ -8,5 +8,9 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
-  plugins: [react()]
+  plugins: [react()],
+  build: {
+    target: 'esnext',
+    polyfillDynamicImport: false
+  }
 })
