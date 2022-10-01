@@ -12,8 +12,8 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: ['react'],
   ignorePatterns: ['**/*.html'],
+  plugins: ['react'],
   rules: {
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off'
